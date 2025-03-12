@@ -1,0 +1,33 @@
+**Project Explanation: Automated 4-DOF Robotic Arm**
+
+**Introduction:**
+This is a 4-DOF acrylic robotic arm that we automated using an Arduino. The project was assigned to us during our 4th semester, and we successfully implemented a **teach-and-repeat** system for object picking and placing.
+
+**Hardware Used:**
+- 4 DOF robotic arm (acrylic structure)
+- Arduino (for control and automation)
+- 4 Servo motors (for movement)
+- 2 Joysticks (for manual control)
+- 2 Push buttons (for automation recording)
+
+**Working Principle:**
+1. **Manual Control Mode:**
+   - The robotic arm is manually controlled using two joysticks:
+     - One joystick controls the **left and right** servo motors.
+     - The other joystick controls the **base and jar** servo motors.
+
+2. **Recording the Pick and Drop Positions:**
+   - When no buttons are pressed, the joystick normally controls the robotic arm.
+   - When the **first push button** is pressed, the arm records the **pick position** where the object is picked up.
+   - When the **same button** is pressed again, the arm records the **drop position** where the object is placed.
+   
+3. **Automated Motion Replay:**
+   - After recording both pick and drop positions, pressing the button again triggers **automatic repetition** of the motion.
+   - The arm will continuously repeat the pick-and-drop sequence without manual control.
+
+**Conclusion:**
+This project successfully demonstrates a **semi-automated** robotic arm that learns movements and repeats them. Such a system can be used for **industrial automation, pick-and-place operations, and robotic learning applications.**
+
+This was an exciting project, and we learned a lot about **servo control, Arduino programming, and automation techniques.**
+
+
